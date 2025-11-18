@@ -2,6 +2,13 @@ var homeScore = document.getElementById("home-score")
 
 var guestScore = document.getElementById("guest-score")
 
+const resetBtn = document.getElementById("reset-btn")
+
+resetBtn.addEventListener("click", function(){
+    homeScore.textContent = "0"
+    guestScore.textContent = "0"
+})
+
 
 
 function plusOneHome() {
@@ -27,3 +34,4 @@ function plusTwoGuest() {
 function plusThreeGuest() {
     guestScore.textContent = parseInt(guestScore.textContent) + 3
 };
+
