@@ -28,6 +28,13 @@ h3 {
 
 }
 
+.reset-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
 .team {
     width: 500px;
     text-align: center;
